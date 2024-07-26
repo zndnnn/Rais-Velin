@@ -209,8 +209,8 @@ a.tbl-biru-4:hover {
     justify-content: center;
     background-color: rgb(169, 149, 124);
     margin-top: -1px;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .text10 {
@@ -234,7 +234,7 @@ a.tbl-biru-4:hover {
     justify-content: center;
     background-color: rgb(169, 149, 124);
     margin-top: -1px;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 45px;
 }
 
@@ -296,6 +296,10 @@ a.tbl-biru-4:hover {
     border-radius: 10px;
 }
 
+#p1 {
+    margin-top: -90px;
+}
+
 #myDIV {
     width: 100%;
     color: whitesmoke;
@@ -326,13 +330,6 @@ a.tbl-biru-4:hover {
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 30px;
-}
-
-.font1-2 {
-    font-size: 12px;
-    font-family: "Montserrat-M";
-    padding-left: 45px;
-    padding-right: 45px;
 }
 
 .font2 {

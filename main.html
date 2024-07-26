@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rais&Velin</title>
+  <title>Wedding Rais&Velin</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
   crossorigin="anonymous"></script>
@@ -46,9 +47,9 @@
       <p class="font6">Our</p>
       <p class="font5">Wedding</p>
       <img src="300ppi/Velin.png" alt="cewe">
-      <a href="main.html" target="_blank" class="tbl-biru">@velin</a>
+      <a href="https://www.instagram.com/novelindniellaa/?utm_source=ig_web_button_share_sheet" target="_blank" class="tbl-biru">@novelindniellaa</a>
       <img src="300ppi/Rais.png" alt="cowo">
-      <a href="main.html" target="_blank" class="tbl-biru-2">@rais</a>
+      <a href="https://www.instagram.com/raisman10/?utm_source=ig_web_button_share_sheet" target="_blank" class="tbl-biru-2">@raisman10</a>
     </div>
   </section>
 
@@ -57,7 +58,7 @@
       <p class="font5-1">WEDDING</p>
       <p class="font2-1">Event</p>
       <img src="300ppi/Resepsi.png" alt="resepsi">
-      <a href="https://maps.app.goo.gl/CKLUbU2VAnQjBfBRA" target="_blank" class="tbl-biru-2">Maps</a>
+      <a href="https://maps.app.goo.gl/Vse74mgDUq3P3H1B8" target="_blank" class="tbl-biru-2">Maps</a>
     </div>
   </section>
 
@@ -123,6 +124,17 @@
     </div>
     <div id="myDIV">
       <img src="300ppi/Rekening.jpg" alt="rekening">
+      <p id="p1">0272819139</p>
+      <button class="button" onclick="copyToClipboard('#p1')">Salin Rekening</button>
+      <script>
+      function copyToClipboard(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+      }
+      </script>
     </div>
 
   <script>
@@ -139,8 +151,7 @@
 
   <section>
     <div class="text9">
-      <p class="font1-2">KONFIRMASI WEDDING GIFT</p>
-      <a href="https://calendar.app.google/sxvk2erKnBRm6zwd6" target="_blank" class="tbl-biru-4">Konfirmasi Via WA</a>
+    
     </div>
   </section>
 
