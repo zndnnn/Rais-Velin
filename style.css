@@ -389,6 +389,12 @@ a.tbl-biru-4:hover {
     color: white;
 }
 
+.font7 {
+    font-size: 12px;
+    font-family: "Times-R";
+    color: whitesmoke;
+}
+
 .lead {
     width: 95%;
     overflow: hidden;
