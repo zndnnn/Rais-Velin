@@ -11,30 +11,32 @@
 </head>
 
 <body>
-    <section id="hero">
+
     <div class="text1">
         <p class="font1">The Wedding of Rais & Velin</p>
         <p class="font2">Rais & Velin</p>
         <p class="font1">Minggu, 04 Agustus 2024</p>
     </div>
 
-<div class="text2">
+    <section id="hero" class="hero">
+    <main class="text2">
     <p class="font4">Kepada Yth.</p>
     <h1 class="font3">Kepada <span></span></h1>
+ 
     <a href="main.html" target="_self" class="tbl-biru">Open Invitation</a>
-</div>
+</main>
 </section>
+
 <script>
     const urlParams = new URLSearchParams(window.location.search);
     const nama = urlParams.get('nama') || '';
     console.log(nama)
 
-    const namaContainer = document.querySelector('.hero h1 span'); 
-    namaContainer.innerText = nama;
+    const namaContainer = document.querySelector('.hero h1 span');
+    let text = nama;
+    namaContainer.insertAdjacentText("afterend", text);
 
-    document.querySelector('#nama').value = nama;
   </script>
-
 
 </body>
 </html>
