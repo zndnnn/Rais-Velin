@@ -29,6 +29,10 @@ body {
 
 }
 
+#font {
+    margin-top: 10px;
+}
+
 a.tbl-biru {
     font-size: 14px;
     font-family: 'Higuen';
