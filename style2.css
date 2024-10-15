@@ -14,8 +14,9 @@ html, body {
 
 body {
     margin: auto;
+    height: 100%;
     padding: 0px;
-    padding-bottom: 60px;
+    padding-bottom: 105px;
     font-family: 'Montserrat-M';
     position: relative;
     background-image: url(asset/7.1.jpg);
@@ -31,10 +32,46 @@ body {
     margin-top: 550px;
 }
 
+.bunga5 {
+    scale: 20%;
+    position: absolute;
+    top: -830px;
+    right: -370px;
+
+}
+
+.bunga3 {
+    scale: 20%;
+    position: absolute;
+    top: -250px;
+    right: -620px;
+
+}
+
 .text2 {
     color: whitesmoke;
     text-align: center;
     margin-top: 60px;
+}
+
+#play {
+    font-family: 'Higuen';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b3a3a;
+    border-radius: 10px;
+    margin-top: -35px;
+    margin-left: 190px;
+    margin-right: 200px;
+    padding: 9px 50px 9px 59px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    border-color: #ffffff;
+    border: 1.5px solid;
+	animation:brath 8s  linear infinite;
 }
 
 a.tbl-biru {
@@ -47,7 +84,7 @@ a.tbl-biru {
     margin-top: 20px;
     margin-left: 120px;
     margin-right: 120px;
-    padding: 9px 10px 15px 10px;
+    padding: 9px 10px 9px 10px;
     color: #ffffff;
     cursor: pointer;
     font-weight: bold;
